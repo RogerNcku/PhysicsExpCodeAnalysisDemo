@@ -263,9 +263,14 @@ for name in ["4kΩ", "2kΩ", "1kΩ"]:
     fig.add_trace(go.Scatter(
         x=[x_sorted[peak_idx]],
         y=[y_sorted[peak_idx]],
-        mode="markers",
-        # mode="markers+text",
-        name=f"{name} 峰值點",
+        # mode="markers",
+        # textfont=dict(size=10),
+        textfont=dict(
+            size=16,
+            color="red"
+        ),
+        mode="markers+text",
+        # name=f"{name} 峰值點",
         marker=dict(
             size=18,
             color=colors[name],
@@ -273,7 +278,8 @@ for name in ["4kΩ", "2kΩ", "1kΩ"]:
             line=dict(width=3, color=colors[name])
         ),
         text=[f"{name} 峰值"],
-        textposition="top right",
+        textposition="top center",
+        
         customdata=[[
             fkhz_sorted[peak_idx],
             x_sorted[peak_idx],
