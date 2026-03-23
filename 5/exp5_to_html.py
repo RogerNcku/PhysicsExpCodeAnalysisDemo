@@ -325,7 +325,7 @@ def main():
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>實驗五 exp5.xlsx 分析報告</title>
+<title>實驗五 Python 程式輔助 分析報告</title>
 <style>
 body {{
     font-family: Arial, 'Microsoft JhengHei', sans-serif;
@@ -386,7 +386,7 @@ h1, h2 {{
 </style>
 </head>
 <body>
-<h1>密立根油滴實驗 — exp5.xlsx HTML 分析報告</h1>
+<h1>密立根油滴實驗 —Python 程式輔助 HTML 分析報告</h1>
 <p class="small">來源檔案：{xlsx_path.name}｜使用工作表：{sheet_name}</p>
 
 <div class="card">
