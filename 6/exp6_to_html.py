@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 # =========================================================
-# 法拉第實驗（Exp6.xlsx）→ python to HTML 分析報告 from Exp6.xlsx
+# 法拉第實驗 → python to HTML 分析報告 from Exp6.xlsx
 # 功能：
 # 1. 讀取 Exp6.xlsx
 # 2. 解析 A、B、C、D、E 五個工作表
